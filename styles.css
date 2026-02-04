@@ -1,0 +1,48 @@
+body {
+font-family: Arial, sans-serif;
+background: #0f172a;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+
+h1 {
+margin-bottom: 30px;
+}
+
+
+.galeria {
+display: grid;
+gap: 30px;
+max-width: 1000px;
+margin: auto;
+}
+
+
+.miembro {
+background: #1e293b;
+padding: 15px;
+border-radius: 20px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+
+.fotos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+margin-top: 10px;
+}
+
+
+.fotos img {
+width: 100%;
+border-radius: 12px;
+transition: transform 0.3s;
+}
+
+
+.fotos img:hover {
+transform: scale(1.05);
+}
